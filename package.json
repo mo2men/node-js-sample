@@ -4,10 +4,13 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "latest",
+    "pug": "latest",
+    "mongoose": "latest"
   },
   "engines": {
     "node": "4.0.0"
@@ -19,11 +22,15 @@
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "pug",
+    "D3js"
   ],
-  "author": "Mark Pundsack",
+  "author": "Mo'men Abdelhady",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    "Mo'men Abdelhady <momen.abdelhady> (https://github.com/mo2men)",
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+    "Christian Dallago <code@dallago.us> (https://github.com/sacdallago)"
   ],
   "license": "MIT"
 }
