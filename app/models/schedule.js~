@@ -1,0 +1,39 @@
+const mongoose = require('mongoose');
+
+const scheduleModel = mongoose.model('schedule', {
+    // Our model will be composed of four compulsory fields: code, day , start and duration
+    // And subject, instr and room are optional
+    code: {
+	type: String,
+	require: true
+    },
+    subject:{
+	tybe: String,
+	require: false
+    },
+    type:{
+	tybe: String,
+	require: false
+    },
+    instr:{
+	tybe: String,
+	require: false
+    },
+    room: {
+	type: String,
+	require: false
+    },
+    day: {
+	type: String,
+	require: true
+    },
+    start: {
+	type: Number,
+	require: true
+    },
+    duration: {
+	tybe: Number,
+	require: true }
+});
+
+module.exports = scheduleModel;
