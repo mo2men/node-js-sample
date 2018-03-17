@@ -1,0 +1,9 @@
+{
+    "database" : {
+        "host": "ds115729.mlab.com",
+        "port": "15729",
+        "collection": "mo2men",
+        "username": "momen",
+        "password": "Ahiana_1"
+    }
+}   
