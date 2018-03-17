@@ -13,7 +13,7 @@ app.set('views','./app/views');
 app.set('view engine','pug');
 
 // Eport static folder (visible to the frontend, under the "/public" path)
-app.use("/puplic",express.static(__dirname + '/public'))
+app.use("/public",express.static(__dirname + '/public'))
 
 //create router
 var router = require('./router');
