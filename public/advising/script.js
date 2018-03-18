@@ -33,7 +33,7 @@ function loadData() {
 			      });
 	    }
 	});
-
+	console.log(meatings);
 	//createVisualisation(meatings);
 
     };
