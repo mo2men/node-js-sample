@@ -8,9 +8,9 @@ module.exports = {
 	    title: "Home"
 	});
     },
-    visualization: function(request,response){
-	return response.status(200).render('visualization',{
-	    title:"Visualization"
+    advising: function(request,response){
+	return response.status(200).render('advising',{
+	    title:"Advising"
 	});
     }
 };

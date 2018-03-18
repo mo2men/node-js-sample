@@ -9,7 +9,7 @@ const frontendController = require('./app/controllers/frontend');
 router
 
     .get("/",frontendController.home)
-    .get("/visualization",frontendController.visualization);
+    .get("/advising",frontendController.advising);
 
 // Require schedule controller and define API
 const scheduleController =require('./app/controllers/schedule');
