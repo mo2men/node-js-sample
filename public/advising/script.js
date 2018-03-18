@@ -33,7 +33,7 @@ function loadData() {
 			      });
 	    }
 	});
-	console.log(meatings);
+	console.log(meetings);
 	//createVisualisation(meatings);
 
     };
@@ -43,8 +43,5 @@ function loadData() {
     xmlHttp.send();
 }
 
-/*
- Visualisation
- */
 
 
